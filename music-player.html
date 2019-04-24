@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>music-player</title>
+    <link rel="stylesheet" href="static/music-player.css">
+  </head>
+  <body>
+    <div class="bg">
+      <section>
+        <div class="panel">
+          <div class="img">
+            <img id="id-img" src="static/taowang-wuqingfeng.mp3.jpg">
+          </div>
+          <div class="control">
+            <div class="control-bar">
+              <input id="id-range-bar"type="range" value="0">
+            </div>
+            <div class="control-button">
+              <img id="left-button" src="static/left-circle.png" alt="">
+              <img id="play-button" class="" src="static/play-circle.png">
+              <img id="pause-button" class='hidden' src="static/timeout.png">
+              <img id="right-button" src="static/right-circle.png" alt="">
+              <!-- <img id="menu-button" src="./static/menu.png" alt=""> -->
+            </div>
+          </div>
+          <div class="music">
+            <audio id="id-audio-player" loop="loop" src="static/taowang-wuqingfeng.mp3"></audio>
+          </div>
+        </div>
+        <div class="menu">
+
+        </div>
+      </section>
+    </div>
+
+  </body>
+  <script src="static/tao.js"></script>
+  <script src="static/music-player.js"></script>
+</html>
